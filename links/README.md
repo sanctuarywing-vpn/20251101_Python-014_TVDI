@@ -1,3 +1,11 @@
-# 第二次上傳
+## 2025_11_01_早上
+https://youtube.com/live/_LeiZwQQMKU
 
-## 第二次同步
+## 2025_11_01_下午
+https://youtube.com/live/Nsm0otgUvno
+
+## 2025_11_08_上午
+https://youtube.com/live/iFCRPrN71NA
+
+## 2025_11_08_下午
+https://youtube.com/live/whQ6__DdQGo
