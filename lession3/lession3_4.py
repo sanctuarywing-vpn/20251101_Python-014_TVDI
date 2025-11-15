@@ -1,7 +1,7 @@
 #將在 .ipynb 寫好的程式碼測試好再貼到 .py 上面執行運行
 import random
 
-while(True):
+def play_game():
     min = 1
     max = 100
     count = 0
@@ -26,10 +26,16 @@ while(True):
                 
         else:
             print("請輸入提示範圍內的數字")
-    
-    is_play_again = input("您還要繼續嗎?y,n")
-    if is_play_again == 'n':
-        break
+def main():
+    while(True):
+        play_game()
+        is_play_again = input("您還要繼續嗎?[y,n]")
+        if is_play_again == 'n':
+            break
     
 
-print("遊戲結束")
+        print("遊戲結束")
+main()
+
+if __name__=="__main__":
+    main()
