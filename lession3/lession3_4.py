@@ -1,7 +1,8 @@
 #將在 .ipynb 寫好的程式碼測試好再貼到 .py 上面執行運行
+
 import random
 
-def play_game():
+def play_game(): #結構化程式碼
     min = 1
     max = 100
     count = 0
@@ -14,7 +15,7 @@ def play_game():
         if keyin >= min and keyin <=max:
             if target == keyin:
                 print(f"賓果!猜對了, 答案是:{target}")
-                print(f"您猜了{count}")
+                print(f"您猜了{count}次")
                 break
             elif (keyin > target):
                 print("再小一點")
@@ -22,20 +23,19 @@ def play_game():
             elif (keyin < target):
                 print("再大一點")
                 min = keyin + 1
-            print(f"您已經猜了{count}")
+            print(f"您已經猜了{count}次")
                 
         else:
             print("請輸入提示範圍內的數字")
+
 def main():
     while(True):
         play_game()
         is_play_again = input("您還要繼續嗎?[y,n]")
         if is_play_again == 'n':
             break
-    
 
         print("遊戲結束")
-main()
-
-if __name__=="__main__":
-    main()
+    #多個main要連續兩次n才能結束遊戲
+if __name__=="__main__": #如果 name = main
+    main() #則執行 main 執行檔
