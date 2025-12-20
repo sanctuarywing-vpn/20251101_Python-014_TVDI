@@ -1,0 +1,42 @@
+[
+  {
+    "stock_code": "2330",
+    "timestamp": "2025-12-20 15:17:30",
+    "current_price": 940.0,
+    "annual_dividend": 30.0,
+    "dividend_yield": 3.19,
+    "past_price": 850.0,
+    "annual_return_rate": 10.59,
+    "status": "success"
+  },
+  {
+    "stock_code": "2454",
+    "timestamp": "2025-12-20 15:17:30",
+    "current_price": 1100.0,
+    "annual_dividend": 25.0,
+    "dividend_yield": 2.27,
+    "past_price": 950.0,
+    "annual_return_rate": 15.79,
+    "status": "success"
+  },
+  {
+    "stock_code": "1101",
+    "timestamp": "2025-12-20 15:17:30",
+    "current_price": 48.0,
+    "annual_dividend": 2.5,
+    "dividend_yield": 5.21,
+    "past_price": 45.0,
+    "annual_return_rate": 6.67,
+    "status": "success"
+  },
+  {
+    "stock_code": "3008",
+    "timestamp": "2025-12-20 15:17:30",
+    "current_price": 28.0,
+    "annual_dividend": 1.8,
+    "dividend_yield": 6.43,
+    "past_price": 26.0,
+    "annual_return_rate": 7.69,
+    "status": "success"
+  }
+]

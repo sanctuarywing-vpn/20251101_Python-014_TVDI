@@ -1,0 +1,5 @@
+stock_code,timestamp,current_price,annual_dividend,dividend_yield,past_price,annual_return_rate,status
+2330,2025-12-20 15:05:37,940.0,30.0,3.19,850.0,10.59,success
+2454,2025-12-20 15:05:37,1100.0,25.0,2.27,950.0,15.79,success
+1101,2025-12-20 15:05:37,48.0,2.5,5.21,45.0,6.67,success
+3008,2025-12-20 15:05:37,28.0,1.8,6.43,26.0,7.69,success
